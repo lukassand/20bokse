@@ -1,0 +1,228 @@
+/* ******************INDSTILLINGER For opgave 1-20*************** */
+/* ***************Det er herunder du skal rette:***************** */
+
+/*-------------------------------boks 1--------------------------------*/
+
+.box1 .content {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  text-shadow: magenta 5px 3px 10px;
+}
+
+/*-------------------------------boks 2--------------------------------*/
+
+.box2 .content {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 370;
+}
+
+/*-------------------------------boks 3--------------------------------*/
+
+.box3 .content {
+  p::first-letter {
+    font-size: 3rem;
+    color: blue;
+  }
+  color: green;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  text-indent: 20px;
+  text-shadow: yellow 1px 1px 3px;
+  font-weight: 600;
+}
+.box3 .content p::first-letter {
+}
+
+/*-------------------------------boks 4--------------------------------*/
+
+.box4 .content {
+  font-size: 1.3rem;
+  color: red;
+  text-transform: uppercase;
+}
+
+/*-------------------------------boks 5--------------------------------*/
+
+@font-face {
+  /*Her har jeg skrevet @font-face koden for dig - i den næste opgave skal du selv skrive den*/
+  font-family: minFont;
+  src: url("elriolobo/elriott2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box5 .content {
+  font-family: minFont;
+  font-size: 4rem;
+  color: orange;
+}
+
+/*-------------------------------boks 6--------------------------------*/
+
+@font-face {
+  font-family: Russiano;
+  src: url("russiano/russiano-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box6 .content {
+  color: brown;
+  font-family: Russiano;
+  font-size: 3rem;
+}
+
+/*-------------------------------boks 7--------------------------------*/
+
+.box7 .content {
+  font-family: Krona One;
+  color: rgb(59, 118, 206);
+  font-size: 2.6rem;
+}
+
+/*-------------------------------boks 8--------------------------------*/
+
+.box8 .content {
+  font-family: Pacifico;
+  font-size: 3.8rem;
+  color: rgb(115, 21, 169);
+}
+
+/*-------------------------------boks 9--------------------------------*/
+
+.box9 .content {
+  background-color: rgb(183, 209, 128);
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+/*-------------------------------boks 10--------------------------------*/
+
+.box10 .content {
+  font-size: 1.2rem;
+  letter-spacing: 0.07rem;
+}
+
+/*-------------------------------boks 11--------------------------------*/
+
+.box11 .content a {
+  text-decoration-line: none;
+  color: orangered;
+  font-weight: 900;
+}
+
+/*-------------------------------boks 12--------------------------------*/
+
+.box12 .content {
+  background-image: url(bg_images/himmel.jpeg);
+  background-size: cover;
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: brown;
+}
+
+/*-------------------------------boks 13--------------------------------*/
+
+.box13 .content {
+  /*Her styles teksten (størrelse og "weight")*/
+
+  background-image: url(bg_images/himmel.jpeg);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  font-size: 4.3rem;
+  font-weight: 700;
+
+  /*Her indsættes baggrundsbilledet som fyld i teksten og teksten gøres transparent*/
+}
+
+/*-------------------------------boks 14--------------------------------*/
+
+.box14 .content {
+  background: linear-gradient(rgb(255, 126, 214), rgb(255, 197, 88), red);
+  text-align: end;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: white;
+}
+
+/*-------------------------------boks 15--------------------------------*/
+
+.box15 .content {
+  /*Her indsættes de to baggrunde vha. background separeret af komma - husk at den der skal ligge øverst skal stå først*/
+
+  /* størrelse på de to baggrunde separeret af komma */
+
+  /* skal baggrundsbilledet gentages? */
+
+  /* Hvor skal baggrundsbilledet placeres? */
+
+  /*Her styles teksten*/
+}
+
+/*-------------------------------boks 16--------------------------------*/
+
+.box16 .content {
+  /*Her indsættes gradient vha. background-image*/
+}
+
+/*-------------------------------boks 17--------------------------------*/
+
+.box17 .content {
+  /*Kode som flexer indholdet*/
+  display: flex;
+  justify-content: space-around;
+  /*Kode som sætter baggrundsbillede (himmel.jpg ind)    */
+}
+
+/*Kunne gøres smartere, men så blev det lidt for besværligt for de studerende:*/
+
+.box17 .content .kvadrat1 {
+  /*Styling af de to bokse: width, height og border*/
+  width: 100px;
+  height: 100px;
+  border: 1px dashed magenta;
+
+  /*Indsæt selv blomsten med background-image og background-size*/
+
+  /*Baggrundsfarve*/
+}
+
+.box17 .content .kvadrat2 {
+  /*Styling af de to bokse: width, height og border*/
+  width: 100px;
+  height: 100px;
+  border: 1px dashed magenta;
+
+  /*Indsæt blomsten med background-image og background-size*/
+
+  /*Baggrundsfarve*/
+}
+
+/*-------------------------------boks 18--------------------------------*/
+
+.box18 .content {
+  /*Kode som flexer indholdet*/
+  display: flex;
+  justify-content: center;
+  /*Indsæt blåt baggrundsbillede*/
+}
+
+.box18 .content .kvadrat {
+  /*Styling af boksen: width & height*/
+
+  /*Indsæt blomsten med background-image og background-size*/
+
+  /*Brug filter så blomsten får en sepia toning*/
+}
+
+/*-------------------------------boks 19--------------------------------*/
+
+/*Her kan du lave din egen styling*/
+
+/*-------------------------------boks 20--------------------------------*/
+
+/*Her kan du lave din egen gradient*/
